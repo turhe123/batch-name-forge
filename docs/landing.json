@@ -1,0 +1,60 @@
+{
+  "seo_title": "Batch file renamer for macOS",
+  "seo_description": "Free, open-source macOS app that batch renames files with stackable rules, a live before-and-after preview, collision checks and one-step undo.",
+  "hero_title_line1": "Rename a thousand files",
+  "hero_title_accent": "without the guesswork.",
+  "hero_sub": "Drop files or folders, stack rename rules, and watch every new name update live. Review the preview, then press ⌘Return to rename the whole batch.",
+  "features_title": "Rules you can stack.",
+  "features_sub": "Chain small, predictable steps, check the result row by row, and rename only when every name looks right.",
+  "features": [
+    {
+      "icon": "sliders",
+      "title": "Stackable rename rules",
+      "desc": "Find & Replace (literal or regex), prefix or suffix, remove characters, change case, sequence numbers and trim whitespace. Reorder by dragging, disable or remove any rule."
+    },
+    {
+      "icon": "eye",
+      "title": "Live before-and-after preview",
+      "desc": "A table shows Original, New name and Folder as you edit. Previews are computed off the main thread, so large batches stay responsive."
+    },
+    {
+      "icon": "clock",
+      "title": "Dates and EXIF capture time",
+      "desc": "Insert a file's modification date, creation date or the EXIF capture date of a photo, using a custom date format."
+    },
+    {
+      "icon": "shield",
+      "title": "Collision detection",
+      "desc": "Duplicate target names, existing files in the destination, empty names and names over 255 bytes are flagged, and renaming is blocked until they are fixed."
+    },
+    {
+      "icon": "folder",
+      "title": "Safe renames with undo",
+      "desc": "Files move through temporary names, so swaps and chained names work. If any move fails, everything already moved is rolled back, and you can undo the last batch with ⌘Z."
+    },
+    {
+      "icon": "download",
+      "title": "Reusable presets",
+      "desc": "Save the current rule stack under a name and load it later. Presets are stored as plain JSON in Application Support."
+    }
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {
+      "q": "Is BatchNameForge really free and open source?",
+      "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. There are no accounts, subscriptions or ads, and an optional Support button links to Ko-fi if you want to chip in."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None beyond the files you choose. It does not use Accessibility, Screen Recording, the camera, the microphone or the network. The app is not sandboxed, so it can rename the files and folders you drop in directly."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Everything stays on your Mac. Saved presets are JSON files in ~/Library/Application Support, and the two settings (default date format and confirm before renaming) live in standard user defaults. The undo history is kept in memory for the current session only."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. The first time you open it, right-click the app and choose Open, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

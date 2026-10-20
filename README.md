@@ -1,5 +1,7 @@
 # BatchNameForge
 
+**🌐 Website:** [turhe123.github.io/batch-name-forge](https://turhe123.github.io/batch-name-forge/)
+
 Drop a pile of files and rename them all with stackable rules and a live before and after preview.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -35,7 +37,17 @@ BatchNameForge is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-rename-preview.png" alt="BatchNameForge main window with a live rename preview and a stack of rules" width="720"></p>
+
+<p align="center"><em>Ten camera files get renamed to Lisbon 001–010 by a regex Find Replace rule stacked with a Sequence Number rule, with a live before-and-after preview.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-collision-detection.png" alt="Rename preview with duplicate names flagged in red as conflicts" width="560"></p>
+
+<p align="center"><em>With the sequence rule turned off, every file would get the same name, so BatchNameForge flags all ten conflicts and won&#x27;t rename until they&#x27;re fixed.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="BatchNameForge Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick the default date format and choose whether to confirm before renaming.</em></p>
 
 ## Install
 

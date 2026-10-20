@@ -1,0 +1,5 @@
+[
+  {"file":"01-rename-preview.png","caption":"Ten camera files get renamed to Lisbon 001–010 by a regex Find & Replace rule stacked with a Sequence Number rule, with a live before-and-after preview.","alt":"BatchNameForge main window with a live rename preview and a stack of rules"},
+  {"file":"02-collision-detection.png","caption":"With the sequence rule turned off, every file would get the same name, so BatchNameForge flags all ten conflicts and won't rename until they're fixed.","alt":"Rename preview with duplicate names flagged in red as conflicts"},
+  {"file":"03-settings.png","caption":"Settings let you pick the default date format and choose whether to confirm before renaming.","alt":"BatchNameForge Settings window"}
+]
